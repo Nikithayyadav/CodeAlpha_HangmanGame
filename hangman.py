@@ -4,7 +4,7 @@ import random
 words = ["python", "hangman", "developer", "program", "code"]
 word_to_guess = random.choice(words)
 
-# Step 2: Setup
+# Step 2: Setup 
 guessed_letters = []
 attempts = 6
 display_word = ["_"] * len(word_to_guess)
